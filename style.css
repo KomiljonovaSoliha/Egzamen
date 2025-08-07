@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 2px solid #EEEEF4;
+}
+
+.headerContainer {
+    max-width: 1196px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+}
+
+.headertext {
+    background-color: black;
+    width: 156px;
+    height: 41px;
+    border-radius: 6px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    gap: 10px;
+    color: white;
+    margin-left: 695px;
+
+
+}
+
+.vertualtext {
+    width: 129px;
+    height: 59px;
+
+}
+
+.mainContainer {
+    max-width: 1196px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    height: 333px;
+    
+}
+
+.textlar {
+    width: 520px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 140%;
+
+
+
+
+
+}
+
+main {
+
+    margin-top: 91px;
+
+}
+
+.btn {
+    width: 168px;
+    height: 59px;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    gap: 10px;
+    background-color: #1AAB7B;
+    color: white;
+    border: none;
+    margin-top: 40px;
+
+}
+
+.video {
+    margin-left: 500px;
+
+
+}
+
+.title {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-style: 'SemiBold';
+    font-size: 36px;
+    line-height: 140%;
+    text-align: center;
+    margin-top: 259px;
+
+}
+
+.card1 {
+    width: 384px;
+    height: 358px;
+    border-radius: 6px;
+    background-color: #F2F4F6;
+    padding-top: 40px;
+    padding-left:30px ;
+    border: 2px solid #E1E7ED;
+
+}
+.cardichidagitext{
+text-align: left;
+font-family: 'Plus Jakarta Sans';
+font-weight: 600;
+font-style: 'SemiBold';
+font-size: 32px;
+
+line-height: 140%;
+
+
+}
+.paragraf{
+    font-family: 'Plus Jakarta Sans';
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+margin-top: 20px;
+margin-bottom: 50px;
+color: #636F87;
+width: 324px;
+
+
+
+
+
+}
+.paragraff{
+    font-family: 'Plus Jakarta Sans';
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+margin-top: 20px;
+margin-bottom: 50px;
+width: 324px;
+color: white;
+}
+.ategi{
+    text-decoration:none ;
+    color:black;
+    margin-top: 50px;
+}
+.help{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    margin-top: 45px;
+    }
+    .card2{
+        width: 384px;
+        height: 358px;
+        border-radius: 6px;
+        background-color:#1AAB7B;
+        padding-top: 40px;
+        padding-left:30px ;
+        border:2px solid #E1E7ED;
+        color: white;
+        
+    
+    }
+
+h3{
+    font-family: 'Plus Jakarta Sans';
+font-weight: 700;
+font-size: 20px;
+font-variant: small-caps;
+text-decoration: underline;
+
+
+
+}
+.second{
+    margin-top: 23px;
+    text-decoration: none;
+}
+.titleContainer{
+    width: 784.126953125px;
+height: 100px;
+top: 1744px;
+left: 327.94px;
+gap: 16px;
+margin: 0 auto;
+margin-left: 550px;
+margin-top: 132px;
+
+
+
+}
+.nimadr{
+    width: 411px;
+height: 100px;
+font-family: 'Plus Jakarta Sans';
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+line-height: 140%;
+text-align: center;
+
+}
+
+
+
+.container{
+    max-width: 565px;
+    width: 100%;
+    margin: 0 auto;
+height: 434px;
+background-color: #000000BA;
+padding-top: 37px;
+
+}
+
+.uchinchiqism{
+    background-image: url('mars.png');
+    width:1216px;
+    height: 515px;
+    border-radius: 6px;
+  background-size: cover;
+    margin: 0 auto;
+    background-position:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 157px;
+
+    
+}
+.container input,.container textarea{
+    background-color: #000000BA;
+width: 463px;
+height: 70px;
+margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 72px;
+
+
+    
+}
+.container button{
+    width:217px;
+    height: 59px;
+    padding: 10px;
+    background-color:#1AAB7B;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-left: 195px;
+    margin-top: 40px;
+}
+footer{
+    background-color: #101010;
+    height: 220px;
+    width: 1,440px;
+   margin-top: 50px;
+    padding-top: 96px;
+}
+.footerContainer{
+max-width: 1200px;
+width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 967px;
+}
+.logolar{
+    display: flex;
+    gap: 40px;
+}
+
+
